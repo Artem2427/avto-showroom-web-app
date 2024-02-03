@@ -1,0 +1,1 @@
+export { defaultCatalog } from './defaultCatalog';

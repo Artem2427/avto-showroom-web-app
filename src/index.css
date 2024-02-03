@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul,
+ol,
+li {
+	list-style: none;
+}
+
+img {
+	vertical-align: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+@import './fonts/font.css';
+
+html,
+body {
+	height: 100%;
+	line-height: 1;
+	font-size: 16px;
+	--main-txt-color: #131313;
+	color: var(--main-txt-color);
+	font-weight: 600;
+	background-color: #ececec;
+	box-sizing: border-box;
+}
+
+* {
+	font-family: 'Jost' !important;
+}
