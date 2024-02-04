@@ -11,6 +11,8 @@ const PrivateRoute = ({ children }: any) => {
 
 	if (user) {
 		if (authService.isLogin()) {
+			console.log(children.type.name, 'children.type.name');
+
 			switch (children.type.name) {
 				case 'AdminPanel':
 					if (user.role === Roles.admin) {
