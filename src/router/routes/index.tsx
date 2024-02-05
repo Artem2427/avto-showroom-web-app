@@ -21,7 +21,7 @@ export const ROUTES: Routes = [
 	{
 		path: Pages.ADMIN_PANEL,
 		element: (
-			<PrivateRoute>
+			<PrivateRoute path="AdminPanel">
 				<AdminPanel />
 			</PrivateRoute>
 		),
@@ -33,7 +33,7 @@ export const ROUTES: Routes = [
 	{
 		path: Pages.PROFILE,
 		element: (
-			<PrivateRoute>
+			<PrivateRoute path="Profile">
 				<Profile />
 			</PrivateRoute>
 		),
